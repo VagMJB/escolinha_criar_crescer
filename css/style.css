@@ -30,10 +30,14 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    font-size: 18px;
-    color: blue;
+    font-size: 16px;
+    color: blue;  
+}
 
-    
+a:hover {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: solid;
 }
 
 
@@ -45,6 +49,14 @@ nav ul li a{
     color: white;
     margin-right: 10px;
     border: 0; 
+    margin-left: 10px;
+    
+}
+
+.button-nav:hover{
+    background-color: red;
+    text-transform: uppercase;
+
 }
 
 .img-principal{
